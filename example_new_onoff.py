@@ -1,3 +1,7 @@
+#Before running the script, you need to install the libraries to make it work. 
+#Enter these commands in a Linux or Python terminal
+#pip instlall requests
+#pip install Timer
 import requests
 from datetime import datetime
 from threading import Timer
