@@ -47,8 +47,8 @@ def req_pow (url, token):
     req_on = requests.post(url, headers=headers, data={})
 def power_on():
     power_on = {
-        'eiforia': req_pow(url_power_on['test_01'], get_token(url['url_vcd_01'], org_example_01['test_01'])),
-        'antares': req_pow(url_power_on['test_02'], get_token(url['url_vcd_02'], org_example_02['test_02'])),
+        'test_01': req_pow(url_power_on['test_01'], get_token(url['url_vcd_01'], org_example_01['test_01'])),
+        'test_02': req_pow(url_power_on['test_02'], get_token(url['url_vcd_02'], org_example_02['test_02'])),
     }
 def power_off():
     power_off = {
